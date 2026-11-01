@@ -114,6 +114,12 @@ main { padding: 40px 0 80px; }
   padding: 4px 12px; border-radius: 6px; font-size: .9rem;
 }
 
+.edu { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.edu li { display: flex; gap: 12px; align-items: flex-start; }
+.edu svg { width: 18px; height: 18px; flex: none; margin-top: 3px; color: var(--accent); }
+.edu strong { font-weight: 500; }
+.edu span { display: block; color: var(--muted); font-size: .9rem; }
+
 /* ---------- Inner pages ---------- */
 .page-title { font-size: 2.8rem; margin-bottom: 32px; }
 .section-title { font-size: 1.7rem; margin: 40px 0 16px; }
